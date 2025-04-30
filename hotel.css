@@ -1,0 +1,159 @@
+.header {
+  padding: 2.5em 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+.hero {
+  height: 70vh;
+  min-height: 500px;
+  width: 100%;
+  background-image: url(../image/hero_hotel.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.hero:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  top: 0;
+  left: 0;
+  content: "";
+}
+.hero .hero-content {
+  color: #fff;
+  height: 70vh;
+  min-height: 450px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.hero .hero-content h1 {
+  font-size: 8rem;
+  line-height: 1;
+}
+.hero .hero-content p {
+  font-size: 3rem;
+  font-weight: 200;
+  color: #fff;
+}
+.hero .hero-content p a {
+  color: rgba(255, 255, 255, 0.5);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+.hero .hero-content p a:hover {
+  color: rgba(255, 255, 255, 1);
+  border-bottom: 2px solid rgba(255, 255, 255, 1);
+}
+.experience .items img {
+  width: 70px;
+  height: auto;
+  margin-bottom: 1em;
+}
+.welcome .half {
+  background-size: cover;
+  background-position: center center;
+  height:600px;
+}
+.welcome .part1 {
+  background-image: url("../image/hero_1.jpg.webp");
+}
+.welcome .part2 {
+  background-image: url("../image/slider-2.jpg");
+}
+.welcome .text-welcome {
+  padding: 100px 7.3%;
+  width: 50%;
+}
+.welcome .button {
+  display: inline-block;
+  padding: 0.5em 2em;;
+  border: 2px solid #3f9a94;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #000;
+}
+.welcome .button:hover {
+  background-color: #46b8b0;
+  color: #fff;
+}
+.slider:before {
+  position: absolute;
+  width: 98.1%;
+  height: 97.2%;
+  background-color: rgba(0, 0, 0, 0.1);
+  content: "";
+  left: 0;
+  bottom: 0;
+  margin: 0.6em;
+}
+.slider .slider-img {
+  padding: 0.6em;
+}
+.slider .slider-img img {
+  box-shadow: 0 30px 70px -10px rgba(0, 0, 0, 0.2);
+}
+.slider .arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 4rem;
+  color: #495057;
+}
+.slider .prev {
+  left: -50px;
+}
+.slider .next {
+  right: -50px;
+}
+.slider .arrow:hover {
+  color: #6c757d;
+}
+.slider .pagination {
+  position: absolute;
+  left: 0;
+  bottom: 60px;
+  width: 100%;
+}
+.slider .pagination ul {
+  gap: 10px;
+}
+.slider .pagination ul li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+.slider .pagination ul li.active {
+  background: transparent;
+}
+.intermediate {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  bottom: -2%;
+  left: 0;
+  z-index: -1;
+}
+.blog .items ul li .content .bottom-content  {
+background-color: #fff;
+}
+.blog .items ul li .content .bottom-content h3  {
+font-size: 2.6rem; 
+line-height: 1.2;
+font-weight: 300;
+padding: 1.2em;
+}
+.blog .items ul li .content .bottom-content h3:hover  {
+  color:#46b8b0;
+}
